@@ -238,3 +238,63 @@ footer span {
     position: absolute;
     bottom: 0;
 }
+
+.full-article .comments .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.full-article .comments .items {
+    margin-top: 26px;
+}
+
+.full-article .comment {
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.full-article .comment .avatar {
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-article .comment .avatar span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.full-article .comment .head {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.full-article .comment .author {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.full-article .comment .created {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #999999;
+}
+
+.full-article .comment p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+}
