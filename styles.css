@@ -126,6 +126,10 @@ footer span {
     color: #888888;
 }
 
+.related-posts {
+    margin-top: 72px;
+}
+
 .related-posts h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -147,6 +151,7 @@ footer span {
 .full-article .content {
     width: 772px;
     margin-top: 56px;
+    margin-right: 129px;
 }
 
 .full-article .content h1 {
@@ -163,4 +168,73 @@ footer span {
     line-height: 24px;
     margin-bottom: 12px;
     color: #999999;
+}
+
+.full-article aside {
+    margin-top: 67px;
+}
+
+.full-article .meta div {
+    margin-bottom: 34px;
+}
+
+.full-article .meta span {
+    display: block;
+}
+
+.full-article .meta .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.full-article .meta .information {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #999999;
+}
+
+.full-article .social .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.full-article .social .posters {
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+}
+
+.full-article .social .small-poster {
+    width: 70px;
+    height: 70px;
+    background-color: #E4E4E4;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.full-article .social .small-poster:nth-child(3n) {
+    margin-right: 0;
+}
+
+.full-article .with-line {
+    position: relative;
+    padding-bottom: 32px;
+}
+
+.full-article .with-line::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    position: absolute;
+    bottom: 0;
 }
