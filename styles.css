@@ -124,3 +124,10 @@ footer span {
     font-size: 14px;
     color: #888888;
 }
+
+.related-posts h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
